@@ -1,0 +1,80 @@
+/* Universal Selector */
+
+*{
+    font-family: 'Courier New';
+}
+
+
+
+/* Element Selector */
+h3{
+    color: purple;
+}
+
+h1{
+    color: #b92b27;
+}
+
+
+
+/* ID Selector */
+#login{
+    background-color: white;
+}
+
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+
+
+
+/* Class Selector */
+.upvote{
+    color: green;
+}
+
+
+
+/* Descendant selector */
+.post a{
+    color: purple;
+    background-color: yellow;
+}
+
+
+nav ul li a{
+    color: hotpink;
+}
+
+
+
+/* Sibling selector */
+p+h3{
+    text-decoration: underline;
+}
+
+.upvote + button{
+    background-color: cornflowerblue;
+}
+
+
+
+/* Child selector */
+div > input{
+    background-color: lightcyan;
+    }
+
+
+/* Attribute selector */
+input[type="text"]{
+    color: red;
+}
+
+input[type="password"]{
+    color: red;
+}
+
+input[type]{
+    background-color: ghostwhite;
+}
