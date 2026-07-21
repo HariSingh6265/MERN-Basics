@@ -1,0 +1,28 @@
+div{
+    /* margin: 0 auto; */ 
+    
+    /* margin: 0 auto mein auto ek non-animatable value hai — browser auto se kisi fixed value (jaise 40px) ke beech smooth steps calculate nahi kar   sakta.
+     Isliye baaki properties (color, border-radius) smoothly transition hoti hain, lekin margin achanak jump/snap kar jaata hai. */
+
+    height: 400px;
+    width: 400px;
+    background-color: rgba(30, 220, 230, 0.502);
+    transition: margin 1s linear;
+    text-align: center;
+    padding: 100px;
+    border-radius: 30%;
+    margin: 200px;
+}
+
+div:hover{
+    background-color: rgb(205, 117, 117);
+    border-radius: 40%;
+    color: aliceblue;
+    text-transform: capitalize;
+    text-align: justify;
+    border: 2px solid black;
+    margin: 400px;
+    /* transform-style: flat; */
+    transform: rotate(45deg);
+    /* transition-timing-function: cubic; */
+}
